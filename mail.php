@@ -1,6 +1,6 @@
 <?php
 
-	$emailTo = "product@aspirity.com"; // Enter your email for feedbacks here
+	$emailTo = "test@test.com"; // Enter your email for feedbacks here
 
 	$headers = "MIME-Version: 1.0\r\n";
 	$headers .= "Content-type: text/html; charset=utf-8\r\n";
@@ -17,7 +17,6 @@
 	$body = "";
 	$body .= "<p><b>Name: </b>".$_POST['name']."</p>";
 	$body .= "<p><b>Email: </b>".$_POST['email']."</p>";
-	$body .= "<p><b>Some selected option: </b>".$_POST['select']."</p>";
 	$body .= "<p><b>Subject: </b>".$subject."</p>";
 	$body .= "<p><b>Message: </b>".$_POST['message']."</p>";
 
